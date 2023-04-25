@@ -1,0 +1,58 @@
+<!-- Form Exercise -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Details</title>
+
+</head>
+
+<body>
+
+    <form action="save.html" method="post">
+
+        <label> Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label> Your website:</label>
+        <input type="url" name="url">
+        <br><br>
+
+        <label> Phone:</label>
+        <input type="tel" name="Phone" min="10" max="20" placeholder="05x-xxxxxxx">
+        <br><br>
+
+        <label>age</label>
+        <input type="number" name="age" min="13" max="120">
+
+        <label> color:</label>
+        <input type="color" name="color">
+        <br><br>
+
+        <label> datetime-local:</label>
+        <input type="datetime-local" name="dateTime">
+        <br><br>
+
+        <label>Family status</label>
+        <select name="Location">
+            <option value="1">single</option>
+            <option value="2">married</option>
+            <option value="3">divorced</option>
+            <option value="4">widow</option>
+        </select>
+        <br><br>
+
+        <button>Send</button>
+
+    </form>
+
+</body>
+
+</html>
